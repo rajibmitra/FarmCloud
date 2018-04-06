@@ -57,7 +57,7 @@ public class UsersServiceImpl implements UsersService{
     }
 
     public Users findUser(String username,String password){
-        Users user = new User("pwc", "pwc123", "demo@pwc.com", null, null);
+        Users user = new Users("pwc", "pwc123", "demo@pwc.com", null, null);
         //user= usersJpaRepository.findByUsernameAndPassword(username,password);
       
         
